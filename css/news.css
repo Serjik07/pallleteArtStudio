@@ -5,6 +5,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	min-height: 90vh;
 	align-items: center;
 	padding: 10px 45px;
 	width: 100%;

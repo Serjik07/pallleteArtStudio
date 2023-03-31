@@ -1,0 +1,145 @@
+main {
+    padding: 60px 20px;
+}
+
+.mainInfo {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mainInfo > .mainCont {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.mainInfo > .mainCont > .title {
+    width: 100%;
+}
+
+.mainInfo > .mainCont > .title > h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #222;
+}
+
+.mainInfo > .mainCont > .box {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    width: 100%;
+}
+
+.mainInfo > .mainCont > .box > .card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.mainInfo > .mainCont > .box > .card2 > .img {
+    display: flex;
+    order: 2;
+}
+
+.mainInfo > .mainCont > .box > .card > .img {
+    max-width: 550px;
+    width: 100%;
+}
+
+.mainInfo > .mainCont > .box > .card > .img > img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.mainInfo > .mainCont > .box > .card > .content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainInfo > .mainCont > .box > .card > .content > h3 {
+    font-size: 2.3em;
+    font-weight: normal;
+}
+
+.mainInfo > .mainCont > .box > .card > .content > p {
+    font-size: 1.2em;
+    line-height: 33px;
+}
+
+
+@media screen and (max-width: 1170px) {
+    .mainInfo > .mainCont > .box > .card > .content {
+        gap: 20px;
+    }
+    .mainInfo > .mainCont > .box > .card > .content > h3 {
+        font-size: 1.8em;
+    }
+    .mainInfo > .mainCont > .box > .card > .content > p {
+        font-size: 1em;
+        line-height: 25px;
+    }  
+
+    .mainInfo > .mainCont > .box > .card  {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .mainInfo > .mainCont > .box > .card {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .mainInfo > .mainCont > .box > .card > .img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .mainInfo > .mainCont > .box > .card > .content {
+        width: 100%;
+        gap: 20px;
+    }
+    .mainInfo > .mainCont > .box > .card > .content > h3 {
+        font-size: 2.3em;
+    }
+    .mainInfo > .mainCont > .box > .card > .content > p {
+        font-size: 1.2em;
+        line-height: 33px;
+    }  
+
+    .mainInfo > .mainCont > .box > .card2 > .img {
+        display: flex;
+        order: 0;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .mainInfo > .mainCont > .title > h1 {
+        font-size: 2em;
+    }
+
+    .mainInfo > .mainCont {
+        gap: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .mainInfo > .mainCont > .box > .card > .content {
+        gap: 15px;
+    }
+
+    .mainInfo > .mainCont > .box > .card > .content > h3 {
+        font-size: 1.8em;
+    }
+
+    .mainInfo > .mainCont > .box > .card > .content > p {
+        font-size: 1em;
+        line-height: 28px;
+    }  
+}

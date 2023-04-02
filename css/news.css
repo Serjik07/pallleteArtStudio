@@ -8,6 +8,7 @@
 main > .mainCont {
 	display: flex;
 	flex-direction: column;
+<<<<<<< HEAD
 	gap: 50px;
 }
 
@@ -32,6 +33,12 @@ main > .mainCont {
 .mainCont > .main_down {
 	display: flex;
 	flex-flow: row nowrap;
+=======
+	justify-content: center;
+	min-height: 90vh;
+	align-items: center;
+	padding: 10px 45px;
+>>>>>>> fd6f9e70d30818144d410ef0eb63a179f98f9253
 	width: 100%;
 	gap: 40px;
 }

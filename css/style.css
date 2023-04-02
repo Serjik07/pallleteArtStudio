@@ -102,7 +102,7 @@ footer > .footerCont > .specialmedia {
     gap: 30px;
 }
 
-footer > .footerCont > .specialmedia > i {
+footer > .footerCont > .specialmedia >	a > i {
     font-size: 2.5em;
     color: var(--withe);
     cursor: pointer;

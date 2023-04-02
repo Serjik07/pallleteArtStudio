@@ -1,7 +1,3 @@
-.mainInfo {
-    width: 100%;
-    min-height: 100vh;
-}
 
 .mainInfo > .mainCont {
     display: flex;
